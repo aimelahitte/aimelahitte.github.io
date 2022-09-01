@@ -1,0 +1,42 @@
+body {
+    background-color: bisque;
+    margin: 0px;
+
+}
+
+/* menu */
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+.menu li {
+    float:left
+}
+
+li a {
+    border: 1px solid black;
+    padding: 15px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* hover */
+a:hover {
+    background-color: blanchedalmond;
+}
+
+.contenido {
+    padding-left: 15px;
+    background-color: bisque;
+}
+
+.active {
+    border: 3px solid burlywood
+
+}
